@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jibrankalia/libft/libft.h
+string.h
+-
+
+/Users/jibrankalia/libft/test_bzero.c
+string.h
+-
+stdio.h
+-
+libft.h
+/Users/jibrankalia/libft/libft.h
+

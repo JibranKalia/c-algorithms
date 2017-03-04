@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ft"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/jibrankalia/libft/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/jibrankalia/libft/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test7">
+				<Option output="/Users/jibrankalia/libft/cmake-build-debug/test7" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jibrankalia/libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 test7"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test7/fast">
+				<Option output="/Users/jibrankalia/libft/cmake-build-debug/test7" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jibrankalia/libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 test7/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/jibrankalia/libft/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test5">
+				<Option output="/Users/jibrankalia/libft/cmake-build-debug/test5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jibrankalia/libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 test5"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test5/fast">
+				<Option output="/Users/jibrankalia/libft/cmake-build-debug/test5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jibrankalia/libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 test5/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libft">
+				<Option output="/Users/jibrankalia/libft/cmake-build-debug/liblibft.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jibrankalia/libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 libft"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libft/fast">
+				<Option output="/Users/jibrankalia/libft/cmake-build-debug/liblibft.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jibrankalia/libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 libft/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test3">
+				<Option output="/Users/jibrankalia/libft/cmake-build-debug/test3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jibrankalia/libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 test3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test3/fast">
+				<Option output="/Users/jibrankalia/libft/cmake-build-debug/test3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jibrankalia/libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 test3/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test4">
+				<Option output="/Users/jibrankalia/libft/cmake-build-debug/test4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jibrankalia/libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 test4"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test4/fast">
+				<Option output="/Users/jibrankalia/libft/cmake-build-debug/test4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jibrankalia/libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 test4/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test6">
+				<Option output="/Users/jibrankalia/libft/cmake-build-debug/test6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jibrankalia/libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 test6"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test6/fast">
+				<Option output="/Users/jibrankalia/libft/cmake-build-debug/test6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jibrankalia/libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 test6/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test2">
+				<Option output="/Users/jibrankalia/libft/cmake-build-debug/test2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jibrankalia/libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 test2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test2/fast">
+				<Option output="/Users/jibrankalia/libft/cmake-build-debug/test2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jibrankalia/libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 test2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test1">
+				<Option output="/Users/jibrankalia/libft/cmake-build-debug/test1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jibrankalia/libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 test1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test1/fast">
+				<Option output="/Users/jibrankalia/libft/cmake-build-debug/test1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jibrankalia/libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 test1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/jibrankalia/libft/ft_abs.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_atoi.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_bzero.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_habibstr.c">
+			<Option target="test2"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_isalnum.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_isalpha.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_isascii.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_isblank.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_iscntrl.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_isdigit.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_isgraph.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_islower.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_isprint.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_ispunct.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_isspace.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_isupper.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_isxdigit.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_memalloc.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_memccpy.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_memchr.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_memcmp.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_memcpy.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_memdel.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_memmove.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_memset.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_putchar.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_putchar_fd.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_putendl.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_putendl_fd.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_putnbr.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_putnbr_fd.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_putstr.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_putstr_fd.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_strcat.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_strchr.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_strclr.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_strcmp.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_strcpy.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_strdel.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_strdup.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_striter.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_striteri.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_strlcat.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_strlen.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_strncat.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_strncmp.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_strncpy.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_strndup.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_strnew.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_strnlen.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_strnstr.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_strrchr.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_strsplit.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_strstr.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_tolower.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/ft_toupper.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/test_bzero.c">
+			<Option target="test5"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/test_ctype.c">
+			<Option target="test1"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/test_mem.c">
+			<Option target="test3"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/test_nbr.c">
+			<Option target="test4"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/test_str.c">
+			<Option target="test7"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/test_strlcat.c">
+			<Option target="test6"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/test_strsplit.c">
+			<Option target="test2"/>
+		</Unit>
+		<Unit filename="/Users/jibrankalia/libft/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

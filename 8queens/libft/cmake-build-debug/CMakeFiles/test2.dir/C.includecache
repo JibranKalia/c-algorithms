@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jibrankalia/libft/ft_habibstr.c
+libft.h
+/Users/jibrankalia/libft/libft.h
+stdbool.h
+-
+stdlib.h
+-
+
+/Users/jibrankalia/libft/libft.h
+string.h
+-
+
+/Users/jibrankalia/libft/test_ftstrsplit.c
+libft.h
+/Users/jibrankalia/libft/libft.h
+stdio.h
+-
+stdlib.h
+-
+

@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/test2.dir/test_strsplit.c.o CMakeFiles/test2.dir/ft_habibstr.c.o  -o test2  liblibft.a 

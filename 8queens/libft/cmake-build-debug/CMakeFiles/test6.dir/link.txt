@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/test6.dir/test_strlcat.c.o  -o test6  
