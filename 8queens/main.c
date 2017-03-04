@@ -65,14 +65,17 @@ static void		printboard(char **tab, int g_size)
 
 int 	solveboard(char **tab, int row)
 {
-	if(row >= g_size)
+	if(row == g_size)
+	{
+		printboard(tab, g_size);
 		return (1);
+	}
 
 	int col;
 	col = 0;
 	while (col < g_size)
 	{
-		if (valid_all(tab, row, col, g_size) == 1)
+		if (valid_all(tab, row, col, g_size) == true)
 		{
 			tab[row][col] = 'Q';
 			g_iteration++;
@@ -91,10 +94,5 @@ int main()
 	char 	**tab;
 	CHK1((tab = make_board(g_size)) == 0, ft_putstr("Error\n"), 0);
 
-//	tab[0][3] = 'Q';
-//	chk_all(tab, 0, 3, g_size);
-	printboard(tab, g_size);
-
-	printf("%d\n", solveboard(tab, 0));
-	printboard(tab, g_size);
+	solveboard(tab, 0);
 }

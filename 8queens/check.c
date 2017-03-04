@@ -3,25 +3,54 @@
 
 static int	valid_dig(char **tab, int c_row, int c_col, int size)
 {
-	int		i;
-	int		j;
+	int row;
+	int col;
 
-	for (i = c_row, j = c_row; i >= 0, j >= 0 ; i--, j--);
-		if (tab[i][j] == 'Q')
+	row = c_row;
+	col = c_col;
+	while (row >= 0 && col >= 0)
+	{
+		if (tab[row][col] == 'Q')
 			return (false);
-	for (i = c_row, j = c_row; i >= 0, j < size ; i--, j++)
-		if (tab[i][j] == 'Q')
+		--row;
+		--col;
+	}
+
+	row = c_row;
+	col = c_col;
+	while (row < size && col >= 0)
+	{
+		if (tab[row][col] == 'Q')
 			return (false);
-	for (i = c_row, j = c_row; i < size, j >= 0 ; i++, j--)
-		if (tab[i][j] == 'Q')
+		++row;
+		--col;
+	}
+
+	row = c_row;
+	col = c_col;
+	while (row >= 0 && col < size)
+	{
+		if (tab[row][col] == 'Q')
 			return (false);
-	for (i = c_row, j = c_row; i < size, j < size ; i++, j++)
-		if (tab[i][j] == 'Q')
+		--row;
+		++col;
+	}
+
+	row = c_row;
+	col = c_col;
+	while (row < size && col < size)
+	{
+		if (tab[row][col] == 'Q')
 			return (false);
+		++row;
+		++col;
+	}
+	return (true);
 }
 
 static int	valid_col(char **tab, int c_row, int c_col, int size)
 {
+	c_col = 0;
 	while (c_col < size)
 	{
 		if (tab[c_row][c_col] == 'Q')
@@ -33,11 +62,11 @@ static int	valid_col(char **tab, int c_row, int c_col, int size)
 
 static int 	valid_row(char **tab, int c_row, int c_col, int size)
 {
+	c_row = 0;
 	while (c_row < size)
 	{
 		if (tab[c_row][c_col] == 'Q')
 			return (false);
-		tab[c_row][c_col] = 'C';
 		++c_row;
 	}
 	return (true);
