@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/jibrankalia/FunAlgorithms/8queens/check.c" "/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles/8queens.dir/check.c.o"
-  "/Users/jibrankalia/FunAlgorithms/8queens/main.c" "/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles/8queens.dir/main.c.o"
+  "/nfs/2017/j/jkalia/FunAlgorithms/8queens/check.c" "/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles/8queens.dir/check.c.o"
+  "/nfs/2017/j/jkalia/FunAlgorithms/8queens/main.c" "/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles/8queens.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
@@ -16,7 +16,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft/CMakeFiles/libft.dir/DependInfo.cmake"
+  "/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft/CMakeFiles/libft.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/jibrankalia/FunAlgorithms/8queens
+# Install script for directory: /nfs/2017/j/jkalia/FunAlgorithms/8queens
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,7 +29,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft/cmake_install.cmake")
+  include("/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft/cmake_install.cmake")
 
 endif()
 
@@ -41,5 +41,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

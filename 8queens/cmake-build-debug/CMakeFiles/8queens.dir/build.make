@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jibrankalia/FunAlgorithms/8queens
+CMAKE_SOURCE_DIR = /nfs/2017/j/jkalia/FunAlgorithms/8queens
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug
+CMAKE_BINARY_DIR = /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/8queens.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/8queens.dir/flags.make
 
 CMakeFiles/8queens.dir/main.c.o: CMakeFiles/8queens.dir/flags.make
 CMakeFiles/8queens.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/8queens.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/8queens.dir/main.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/8queens.dir/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/8queens.dir/main.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/main.c
 
 CMakeFiles/8queens.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/8queens.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/main.c > CMakeFiles/8queens.dir/main.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/main.c > CMakeFiles/8queens.dir/main.c.i
 
 CMakeFiles/8queens.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/8queens.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/main.c -o CMakeFiles/8queens.dir/main.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/main.c -o CMakeFiles/8queens.dir/main.c.s
 
 CMakeFiles/8queens.dir/main.c.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/8queens.dir/main.c.o.provides.build: CMakeFiles/8queens.dir/main.c.o
 
 CMakeFiles/8queens.dir/check.c.o: CMakeFiles/8queens.dir/flags.make
 CMakeFiles/8queens.dir/check.c.o: ../check.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/8queens.dir/check.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/8queens.dir/check.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/check.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/8queens.dir/check.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/8queens.dir/check.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/check.c
 
 CMakeFiles/8queens.dir/check.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/8queens.dir/check.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/check.c > CMakeFiles/8queens.dir/check.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/check.c > CMakeFiles/8queens.dir/check.c.i
 
 CMakeFiles/8queens.dir/check.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/8queens.dir/check.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/check.c -o CMakeFiles/8queens.dir/check.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/check.c -o CMakeFiles/8queens.dir/check.c.s
 
 CMakeFiles/8queens.dir/check.c.o.requires:
 
@@ -118,7 +118,7 @@ CMakeFiles/8queens.dir/check.c.o.provides.build: CMakeFiles/8queens.dir/check.c.
 8queens: CMakeFiles/8queens.dir/build.make
 8queens: libft/liblibft.a
 8queens: CMakeFiles/8queens.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable 8queens"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable 8queens"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/8queens.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -136,6 +136,6 @@ CMakeFiles/8queens.dir/clean:
 .PHONY : CMakeFiles/8queens.dir/clean
 
 CMakeFiles/8queens.dir/depend:
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jibrankalia/FunAlgorithms/8queens /Users/jibrankalia/FunAlgorithms/8queens /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles/8queens.dir/DependInfo.cmake --color=$(COLOR)
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /nfs/2017/j/jkalia/FunAlgorithms/8queens /nfs/2017/j/jkalia/FunAlgorithms/8queens /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles/8queens.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/8queens.dir/depend
 

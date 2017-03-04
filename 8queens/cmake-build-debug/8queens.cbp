@@ -8,312 +8,304 @@
 		<Option virtualFolders="CMake Files\;CMake Files\libft\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug"/>
+				<Option working_dir="/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug"/>
+				<Option working_dir="/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug"/>
+				<Option working_dir="/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="8queens">
-				<Option output="/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/8queens" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug"/>
+				<Option output="/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/8queens" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/jibrankalia/FunAlgorithms/8queens/libft"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/Makefile&quot;  VERBOSE=1 8queens"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/Makefile&quot;  VERBOSE=1 8queens"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="8queens/fast">
-				<Option output="/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/8queens" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug"/>
+				<Option output="/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/8queens" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/jibrankalia/FunAlgorithms/8queens/libft"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/Makefile&quot;  VERBOSE=1 8queens/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/Makefile&quot;  VERBOSE=1 8queens/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="libft">
-				<Option output="/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft/liblibft.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft"/>
+				<Option output="/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft/liblibft.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/jibrankalia/FunAlgorithms/8queens/libft"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft/Makefile&quot;  VERBOSE=1 libft"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft/Makefile&quot;  VERBOSE=1 libft"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="libft/fast">
-				<Option output="/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft/liblibft.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft"/>
+				<Option output="/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft/liblibft.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/jibrankalia/FunAlgorithms/8queens/libft"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft/Makefile&quot;  VERBOSE=1 libft/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft/Makefile&quot;  VERBOSE=1 libft/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/check.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/check.c">
 			<Option target="8queens"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_abs.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_abs.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_atoi.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_atoi.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_bzero.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_bzero.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_isalnum.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_isalnum.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_isalpha.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_isalpha.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_isascii.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_isascii.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_isblank.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_isblank.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_iscntrl.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_iscntrl.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_isdigit.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_isdigit.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_isgraph.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_isgraph.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_islower.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_islower.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_isprint.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_isprint.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_ispunct.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_ispunct.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_isspace.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_isspace.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_isupper.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_isupper.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_isxdigit.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_isxdigit.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_memalloc.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_memalloc.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_memccpy.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_memccpy.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_memchr.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_memchr.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_memcmp.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_memcmp.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_memcpy.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_memcpy.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_memdel.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_memdel.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_memmove.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_memmove.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_memset.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_memset.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_putchar.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_putchar.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_putchar_fd.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_putchar_fd.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_putendl.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_putendl.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_putendl_fd.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_putendl_fd.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_putnbr.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_putnbr.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_putnbr_fd.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_putnbr_fd.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_putstr.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_putstr.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_putstr_fd.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_putstr_fd.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strcat.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strcat.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strchr.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strchr.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strclr.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strclr.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strcmp.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strcmp.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strcpy.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strcpy.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strdel.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strdel.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strdup.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strdup.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_striter.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_striter.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_striteri.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_striteri.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strlcat.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strlcat.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strlen.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strlen.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strncat.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strncat.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strncmp.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strncmp.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strncpy.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strncpy.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strndup.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strndup.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strnew.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strnew.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strnlen.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strnlen.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strnstr.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strnstr.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strrchr.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strrchr.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strsplit.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strsplit.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strstr.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strstr.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_tolower.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_tolower.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/ft_toupper.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_toupper.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/libft.h">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/libft.h">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/main.c">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/main.c">
 			<Option target="8queens"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/queen.h">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/queen.h">
 			<Option target="8queens"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/CMakeLists.txt">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/CMakeLists.txt">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\libft\"/>
 		</Unit>
-		<Unit filename="/Users/jibrankalia/FunAlgorithms/8queens/libft/CMakeLists.txt">
+		<Unit filename="/nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\libft\"/>
 		</Unit>
 	</Project>

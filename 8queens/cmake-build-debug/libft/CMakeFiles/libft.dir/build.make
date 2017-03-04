@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jibrankalia/FunAlgorithms/8queens
+CMAKE_SOURCE_DIR = /nfs/2017/j/jkalia/FunAlgorithms/8queens
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug
+CMAKE_BINARY_DIR = /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include libft/CMakeFiles/libft.dir/depend.make
@@ -59,16 +59,16 @@ include libft/CMakeFiles/libft.dir/flags.make
 
 libft/CMakeFiles/libft.dir/ft_putchar.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_putchar.c.o: ../libft/ft_putchar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object libft/CMakeFiles/libft.dir/ft_putchar.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_putchar.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_putchar.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object libft/CMakeFiles/libft.dir/ft_putchar.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_putchar.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_putchar.c
 
 libft/CMakeFiles/libft.dir/ft_putchar.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_putchar.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_putchar.c > CMakeFiles/libft.dir/ft_putchar.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_putchar.c > CMakeFiles/libft.dir/ft_putchar.c.i
 
 libft/CMakeFiles/libft.dir/ft_putchar.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_putchar.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_putchar.c -o CMakeFiles/libft.dir/ft_putchar.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_putchar.c -o CMakeFiles/libft.dir/ft_putchar.c.s
 
 libft/CMakeFiles/libft.dir/ft_putchar.c.o.requires:
 
@@ -83,16 +83,16 @@ libft/CMakeFiles/libft.dir/ft_putchar.c.o.provides.build: libft/CMakeFiles/libft
 
 libft/CMakeFiles/libft.dir/ft_putchar_fd.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_putchar_fd.c.o: ../libft/ft_putchar_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object libft/CMakeFiles/libft.dir/ft_putchar_fd.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_putchar_fd.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_putchar_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object libft/CMakeFiles/libft.dir/ft_putchar_fd.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_putchar_fd.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_putchar_fd.c
 
 libft/CMakeFiles/libft.dir/ft_putchar_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_putchar_fd.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_putchar_fd.c > CMakeFiles/libft.dir/ft_putchar_fd.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_putchar_fd.c > CMakeFiles/libft.dir/ft_putchar_fd.c.i
 
 libft/CMakeFiles/libft.dir/ft_putchar_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_putchar_fd.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_putchar_fd.c -o CMakeFiles/libft.dir/ft_putchar_fd.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_putchar_fd.c -o CMakeFiles/libft.dir/ft_putchar_fd.c.s
 
 libft/CMakeFiles/libft.dir/ft_putchar_fd.c.o.requires:
 
@@ -107,16 +107,16 @@ libft/CMakeFiles/libft.dir/ft_putchar_fd.c.o.provides.build: libft/CMakeFiles/li
 
 libft/CMakeFiles/libft.dir/ft_putendl_fd.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_putendl_fd.c.o: ../libft/ft_putendl_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object libft/CMakeFiles/libft.dir/ft_putendl_fd.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_putendl_fd.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_putendl_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object libft/CMakeFiles/libft.dir/ft_putendl_fd.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_putendl_fd.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_putendl_fd.c
 
 libft/CMakeFiles/libft.dir/ft_putendl_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_putendl_fd.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_putendl_fd.c > CMakeFiles/libft.dir/ft_putendl_fd.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_putendl_fd.c > CMakeFiles/libft.dir/ft_putendl_fd.c.i
 
 libft/CMakeFiles/libft.dir/ft_putendl_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_putendl_fd.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_putendl_fd.c -o CMakeFiles/libft.dir/ft_putendl_fd.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_putendl_fd.c -o CMakeFiles/libft.dir/ft_putendl_fd.c.s
 
 libft/CMakeFiles/libft.dir/ft_putendl_fd.c.o.requires:
 
@@ -131,16 +131,16 @@ libft/CMakeFiles/libft.dir/ft_putendl_fd.c.o.provides.build: libft/CMakeFiles/li
 
 libft/CMakeFiles/libft.dir/ft_putnbr.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_putnbr.c.o: ../libft/ft_putnbr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object libft/CMakeFiles/libft.dir/ft_putnbr.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_putnbr.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_putnbr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object libft/CMakeFiles/libft.dir/ft_putnbr.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_putnbr.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_putnbr.c
 
 libft/CMakeFiles/libft.dir/ft_putnbr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_putnbr.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_putnbr.c > CMakeFiles/libft.dir/ft_putnbr.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_putnbr.c > CMakeFiles/libft.dir/ft_putnbr.c.i
 
 libft/CMakeFiles/libft.dir/ft_putnbr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_putnbr.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_putnbr.c -o CMakeFiles/libft.dir/ft_putnbr.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_putnbr.c -o CMakeFiles/libft.dir/ft_putnbr.c.s
 
 libft/CMakeFiles/libft.dir/ft_putnbr.c.o.requires:
 
@@ -155,16 +155,16 @@ libft/CMakeFiles/libft.dir/ft_putnbr.c.o.provides.build: libft/CMakeFiles/libft.
 
 libft/CMakeFiles/libft.dir/ft_putstr.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_putstr.c.o: ../libft/ft_putstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object libft/CMakeFiles/libft.dir/ft_putstr.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_putstr.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_putstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object libft/CMakeFiles/libft.dir/ft_putstr.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_putstr.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_putstr.c
 
 libft/CMakeFiles/libft.dir/ft_putstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_putstr.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_putstr.c > CMakeFiles/libft.dir/ft_putstr.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_putstr.c > CMakeFiles/libft.dir/ft_putstr.c.i
 
 libft/CMakeFiles/libft.dir/ft_putstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_putstr.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_putstr.c -o CMakeFiles/libft.dir/ft_putstr.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_putstr.c -o CMakeFiles/libft.dir/ft_putstr.c.s
 
 libft/CMakeFiles/libft.dir/ft_putstr.c.o.requires:
 
@@ -179,16 +179,16 @@ libft/CMakeFiles/libft.dir/ft_putstr.c.o.provides.build: libft/CMakeFiles/libft.
 
 libft/CMakeFiles/libft.dir/ft_putstr_fd.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_putstr_fd.c.o: ../libft/ft_putstr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object libft/CMakeFiles/libft.dir/ft_putstr_fd.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_putstr_fd.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_putstr_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object libft/CMakeFiles/libft.dir/ft_putstr_fd.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_putstr_fd.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_putstr_fd.c
 
 libft/CMakeFiles/libft.dir/ft_putstr_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_putstr_fd.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_putstr_fd.c > CMakeFiles/libft.dir/ft_putstr_fd.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_putstr_fd.c > CMakeFiles/libft.dir/ft_putstr_fd.c.i
 
 libft/CMakeFiles/libft.dir/ft_putstr_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_putstr_fd.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_putstr_fd.c -o CMakeFiles/libft.dir/ft_putstr_fd.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_putstr_fd.c -o CMakeFiles/libft.dir/ft_putstr_fd.c.s
 
 libft/CMakeFiles/libft.dir/ft_putstr_fd.c.o.requires:
 
@@ -203,16 +203,16 @@ libft/CMakeFiles/libft.dir/ft_putstr_fd.c.o.provides.build: libft/CMakeFiles/lib
 
 libft/CMakeFiles/libft.dir/ft_putnbr_fd.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_putnbr_fd.c.o: ../libft/ft_putnbr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object libft/CMakeFiles/libft.dir/ft_putnbr_fd.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_putnbr_fd.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_putnbr_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object libft/CMakeFiles/libft.dir/ft_putnbr_fd.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_putnbr_fd.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_putnbr_fd.c
 
 libft/CMakeFiles/libft.dir/ft_putnbr_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_putnbr_fd.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_putnbr_fd.c > CMakeFiles/libft.dir/ft_putnbr_fd.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_putnbr_fd.c > CMakeFiles/libft.dir/ft_putnbr_fd.c.i
 
 libft/CMakeFiles/libft.dir/ft_putnbr_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_putnbr_fd.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_putnbr_fd.c -o CMakeFiles/libft.dir/ft_putnbr_fd.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_putnbr_fd.c -o CMakeFiles/libft.dir/ft_putnbr_fd.c.s
 
 libft/CMakeFiles/libft.dir/ft_putnbr_fd.c.o.requires:
 
@@ -227,16 +227,16 @@ libft/CMakeFiles/libft.dir/ft_putnbr_fd.c.o.provides.build: libft/CMakeFiles/lib
 
 libft/CMakeFiles/libft.dir/ft_isalnum.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_isalnum.c.o: ../libft/ft_isalnum.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object libft/CMakeFiles/libft.dir/ft_isalnum.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_isalnum.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_isalnum.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object libft/CMakeFiles/libft.dir/ft_isalnum.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_isalnum.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_isalnum.c
 
 libft/CMakeFiles/libft.dir/ft_isalnum.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_isalnum.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_isalnum.c > CMakeFiles/libft.dir/ft_isalnum.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_isalnum.c > CMakeFiles/libft.dir/ft_isalnum.c.i
 
 libft/CMakeFiles/libft.dir/ft_isalnum.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_isalnum.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_isalnum.c -o CMakeFiles/libft.dir/ft_isalnum.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_isalnum.c -o CMakeFiles/libft.dir/ft_isalnum.c.s
 
 libft/CMakeFiles/libft.dir/ft_isalnum.c.o.requires:
 
@@ -251,16 +251,16 @@ libft/CMakeFiles/libft.dir/ft_isalnum.c.o.provides.build: libft/CMakeFiles/libft
 
 libft/CMakeFiles/libft.dir/ft_isalpha.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_isalpha.c.o: ../libft/ft_isalpha.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object libft/CMakeFiles/libft.dir/ft_isalpha.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_isalpha.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_isalpha.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object libft/CMakeFiles/libft.dir/ft_isalpha.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_isalpha.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_isalpha.c
 
 libft/CMakeFiles/libft.dir/ft_isalpha.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_isalpha.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_isalpha.c > CMakeFiles/libft.dir/ft_isalpha.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_isalpha.c > CMakeFiles/libft.dir/ft_isalpha.c.i
 
 libft/CMakeFiles/libft.dir/ft_isalpha.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_isalpha.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_isalpha.c -o CMakeFiles/libft.dir/ft_isalpha.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_isalpha.c -o CMakeFiles/libft.dir/ft_isalpha.c.s
 
 libft/CMakeFiles/libft.dir/ft_isalpha.c.o.requires:
 
@@ -275,16 +275,16 @@ libft/CMakeFiles/libft.dir/ft_isalpha.c.o.provides.build: libft/CMakeFiles/libft
 
 libft/CMakeFiles/libft.dir/ft_isascii.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_isascii.c.o: ../libft/ft_isascii.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object libft/CMakeFiles/libft.dir/ft_isascii.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_isascii.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_isascii.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object libft/CMakeFiles/libft.dir/ft_isascii.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_isascii.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_isascii.c
 
 libft/CMakeFiles/libft.dir/ft_isascii.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_isascii.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_isascii.c > CMakeFiles/libft.dir/ft_isascii.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_isascii.c > CMakeFiles/libft.dir/ft_isascii.c.i
 
 libft/CMakeFiles/libft.dir/ft_isascii.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_isascii.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_isascii.c -o CMakeFiles/libft.dir/ft_isascii.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_isascii.c -o CMakeFiles/libft.dir/ft_isascii.c.s
 
 libft/CMakeFiles/libft.dir/ft_isascii.c.o.requires:
 
@@ -299,16 +299,16 @@ libft/CMakeFiles/libft.dir/ft_isascii.c.o.provides.build: libft/CMakeFiles/libft
 
 libft/CMakeFiles/libft.dir/ft_isblank.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_isblank.c.o: ../libft/ft_isblank.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object libft/CMakeFiles/libft.dir/ft_isblank.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_isblank.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_isblank.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object libft/CMakeFiles/libft.dir/ft_isblank.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_isblank.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_isblank.c
 
 libft/CMakeFiles/libft.dir/ft_isblank.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_isblank.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_isblank.c > CMakeFiles/libft.dir/ft_isblank.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_isblank.c > CMakeFiles/libft.dir/ft_isblank.c.i
 
 libft/CMakeFiles/libft.dir/ft_isblank.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_isblank.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_isblank.c -o CMakeFiles/libft.dir/ft_isblank.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_isblank.c -o CMakeFiles/libft.dir/ft_isblank.c.s
 
 libft/CMakeFiles/libft.dir/ft_isblank.c.o.requires:
 
@@ -323,16 +323,16 @@ libft/CMakeFiles/libft.dir/ft_isblank.c.o.provides.build: libft/CMakeFiles/libft
 
 libft/CMakeFiles/libft.dir/ft_iscntrl.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_iscntrl.c.o: ../libft/ft_iscntrl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object libft/CMakeFiles/libft.dir/ft_iscntrl.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_iscntrl.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_iscntrl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object libft/CMakeFiles/libft.dir/ft_iscntrl.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_iscntrl.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_iscntrl.c
 
 libft/CMakeFiles/libft.dir/ft_iscntrl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_iscntrl.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_iscntrl.c > CMakeFiles/libft.dir/ft_iscntrl.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_iscntrl.c > CMakeFiles/libft.dir/ft_iscntrl.c.i
 
 libft/CMakeFiles/libft.dir/ft_iscntrl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_iscntrl.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_iscntrl.c -o CMakeFiles/libft.dir/ft_iscntrl.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_iscntrl.c -o CMakeFiles/libft.dir/ft_iscntrl.c.s
 
 libft/CMakeFiles/libft.dir/ft_iscntrl.c.o.requires:
 
@@ -347,16 +347,16 @@ libft/CMakeFiles/libft.dir/ft_iscntrl.c.o.provides.build: libft/CMakeFiles/libft
 
 libft/CMakeFiles/libft.dir/ft_isdigit.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_isdigit.c.o: ../libft/ft_isdigit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object libft/CMakeFiles/libft.dir/ft_isdigit.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_isdigit.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_isdigit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object libft/CMakeFiles/libft.dir/ft_isdigit.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_isdigit.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_isdigit.c
 
 libft/CMakeFiles/libft.dir/ft_isdigit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_isdigit.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_isdigit.c > CMakeFiles/libft.dir/ft_isdigit.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_isdigit.c > CMakeFiles/libft.dir/ft_isdigit.c.i
 
 libft/CMakeFiles/libft.dir/ft_isdigit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_isdigit.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_isdigit.c -o CMakeFiles/libft.dir/ft_isdigit.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_isdigit.c -o CMakeFiles/libft.dir/ft_isdigit.c.s
 
 libft/CMakeFiles/libft.dir/ft_isdigit.c.o.requires:
 
@@ -371,16 +371,16 @@ libft/CMakeFiles/libft.dir/ft_isdigit.c.o.provides.build: libft/CMakeFiles/libft
 
 libft/CMakeFiles/libft.dir/ft_isgraph.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_isgraph.c.o: ../libft/ft_isgraph.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object libft/CMakeFiles/libft.dir/ft_isgraph.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_isgraph.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_isgraph.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object libft/CMakeFiles/libft.dir/ft_isgraph.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_isgraph.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_isgraph.c
 
 libft/CMakeFiles/libft.dir/ft_isgraph.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_isgraph.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_isgraph.c > CMakeFiles/libft.dir/ft_isgraph.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_isgraph.c > CMakeFiles/libft.dir/ft_isgraph.c.i
 
 libft/CMakeFiles/libft.dir/ft_isgraph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_isgraph.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_isgraph.c -o CMakeFiles/libft.dir/ft_isgraph.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_isgraph.c -o CMakeFiles/libft.dir/ft_isgraph.c.s
 
 libft/CMakeFiles/libft.dir/ft_isgraph.c.o.requires:
 
@@ -395,16 +395,16 @@ libft/CMakeFiles/libft.dir/ft_isgraph.c.o.provides.build: libft/CMakeFiles/libft
 
 libft/CMakeFiles/libft.dir/ft_islower.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_islower.c.o: ../libft/ft_islower.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object libft/CMakeFiles/libft.dir/ft_islower.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_islower.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_islower.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object libft/CMakeFiles/libft.dir/ft_islower.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_islower.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_islower.c
 
 libft/CMakeFiles/libft.dir/ft_islower.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_islower.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_islower.c > CMakeFiles/libft.dir/ft_islower.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_islower.c > CMakeFiles/libft.dir/ft_islower.c.i
 
 libft/CMakeFiles/libft.dir/ft_islower.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_islower.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_islower.c -o CMakeFiles/libft.dir/ft_islower.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_islower.c -o CMakeFiles/libft.dir/ft_islower.c.s
 
 libft/CMakeFiles/libft.dir/ft_islower.c.o.requires:
 
@@ -419,16 +419,16 @@ libft/CMakeFiles/libft.dir/ft_islower.c.o.provides.build: libft/CMakeFiles/libft
 
 libft/CMakeFiles/libft.dir/ft_isprint.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_isprint.c.o: ../libft/ft_isprint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object libft/CMakeFiles/libft.dir/ft_isprint.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_isprint.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_isprint.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object libft/CMakeFiles/libft.dir/ft_isprint.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_isprint.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_isprint.c
 
 libft/CMakeFiles/libft.dir/ft_isprint.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_isprint.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_isprint.c > CMakeFiles/libft.dir/ft_isprint.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_isprint.c > CMakeFiles/libft.dir/ft_isprint.c.i
 
 libft/CMakeFiles/libft.dir/ft_isprint.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_isprint.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_isprint.c -o CMakeFiles/libft.dir/ft_isprint.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_isprint.c -o CMakeFiles/libft.dir/ft_isprint.c.s
 
 libft/CMakeFiles/libft.dir/ft_isprint.c.o.requires:
 
@@ -443,16 +443,16 @@ libft/CMakeFiles/libft.dir/ft_isprint.c.o.provides.build: libft/CMakeFiles/libft
 
 libft/CMakeFiles/libft.dir/ft_ispunct.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_ispunct.c.o: ../libft/ft_ispunct.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object libft/CMakeFiles/libft.dir/ft_ispunct.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_ispunct.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_ispunct.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object libft/CMakeFiles/libft.dir/ft_ispunct.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_ispunct.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_ispunct.c
 
 libft/CMakeFiles/libft.dir/ft_ispunct.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_ispunct.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_ispunct.c > CMakeFiles/libft.dir/ft_ispunct.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_ispunct.c > CMakeFiles/libft.dir/ft_ispunct.c.i
 
 libft/CMakeFiles/libft.dir/ft_ispunct.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_ispunct.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_ispunct.c -o CMakeFiles/libft.dir/ft_ispunct.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_ispunct.c -o CMakeFiles/libft.dir/ft_ispunct.c.s
 
 libft/CMakeFiles/libft.dir/ft_ispunct.c.o.requires:
 
@@ -467,16 +467,16 @@ libft/CMakeFiles/libft.dir/ft_ispunct.c.o.provides.build: libft/CMakeFiles/libft
 
 libft/CMakeFiles/libft.dir/ft_isspace.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_isspace.c.o: ../libft/ft_isspace.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object libft/CMakeFiles/libft.dir/ft_isspace.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_isspace.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_isspace.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object libft/CMakeFiles/libft.dir/ft_isspace.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_isspace.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_isspace.c
 
 libft/CMakeFiles/libft.dir/ft_isspace.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_isspace.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_isspace.c > CMakeFiles/libft.dir/ft_isspace.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_isspace.c > CMakeFiles/libft.dir/ft_isspace.c.i
 
 libft/CMakeFiles/libft.dir/ft_isspace.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_isspace.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_isspace.c -o CMakeFiles/libft.dir/ft_isspace.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_isspace.c -o CMakeFiles/libft.dir/ft_isspace.c.s
 
 libft/CMakeFiles/libft.dir/ft_isspace.c.o.requires:
 
@@ -491,16 +491,16 @@ libft/CMakeFiles/libft.dir/ft_isspace.c.o.provides.build: libft/CMakeFiles/libft
 
 libft/CMakeFiles/libft.dir/ft_isupper.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_isupper.c.o: ../libft/ft_isupper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object libft/CMakeFiles/libft.dir/ft_isupper.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_isupper.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_isupper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object libft/CMakeFiles/libft.dir/ft_isupper.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_isupper.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_isupper.c
 
 libft/CMakeFiles/libft.dir/ft_isupper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_isupper.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_isupper.c > CMakeFiles/libft.dir/ft_isupper.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_isupper.c > CMakeFiles/libft.dir/ft_isupper.c.i
 
 libft/CMakeFiles/libft.dir/ft_isupper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_isupper.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_isupper.c -o CMakeFiles/libft.dir/ft_isupper.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_isupper.c -o CMakeFiles/libft.dir/ft_isupper.c.s
 
 libft/CMakeFiles/libft.dir/ft_isupper.c.o.requires:
 
@@ -515,16 +515,16 @@ libft/CMakeFiles/libft.dir/ft_isupper.c.o.provides.build: libft/CMakeFiles/libft
 
 libft/CMakeFiles/libft.dir/ft_isxdigit.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_isxdigit.c.o: ../libft/ft_isxdigit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object libft/CMakeFiles/libft.dir/ft_isxdigit.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_isxdigit.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_isxdigit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object libft/CMakeFiles/libft.dir/ft_isxdigit.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_isxdigit.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_isxdigit.c
 
 libft/CMakeFiles/libft.dir/ft_isxdigit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_isxdigit.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_isxdigit.c > CMakeFiles/libft.dir/ft_isxdigit.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_isxdigit.c > CMakeFiles/libft.dir/ft_isxdigit.c.i
 
 libft/CMakeFiles/libft.dir/ft_isxdigit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_isxdigit.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_isxdigit.c -o CMakeFiles/libft.dir/ft_isxdigit.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_isxdigit.c -o CMakeFiles/libft.dir/ft_isxdigit.c.s
 
 libft/CMakeFiles/libft.dir/ft_isxdigit.c.o.requires:
 
@@ -539,16 +539,16 @@ libft/CMakeFiles/libft.dir/ft_isxdigit.c.o.provides.build: libft/CMakeFiles/libf
 
 libft/CMakeFiles/libft.dir/ft_tolower.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_tolower.c.o: ../libft/ft_tolower.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object libft/CMakeFiles/libft.dir/ft_tolower.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_tolower.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_tolower.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object libft/CMakeFiles/libft.dir/ft_tolower.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_tolower.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_tolower.c
 
 libft/CMakeFiles/libft.dir/ft_tolower.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_tolower.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_tolower.c > CMakeFiles/libft.dir/ft_tolower.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_tolower.c > CMakeFiles/libft.dir/ft_tolower.c.i
 
 libft/CMakeFiles/libft.dir/ft_tolower.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_tolower.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_tolower.c -o CMakeFiles/libft.dir/ft_tolower.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_tolower.c -o CMakeFiles/libft.dir/ft_tolower.c.s
 
 libft/CMakeFiles/libft.dir/ft_tolower.c.o.requires:
 
@@ -563,16 +563,16 @@ libft/CMakeFiles/libft.dir/ft_tolower.c.o.provides.build: libft/CMakeFiles/libft
 
 libft/CMakeFiles/libft.dir/ft_toupper.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_toupper.c.o: ../libft/ft_toupper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object libft/CMakeFiles/libft.dir/ft_toupper.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_toupper.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_toupper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object libft/CMakeFiles/libft.dir/ft_toupper.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_toupper.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_toupper.c
 
 libft/CMakeFiles/libft.dir/ft_toupper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_toupper.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_toupper.c > CMakeFiles/libft.dir/ft_toupper.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_toupper.c > CMakeFiles/libft.dir/ft_toupper.c.i
 
 libft/CMakeFiles/libft.dir/ft_toupper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_toupper.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_toupper.c -o CMakeFiles/libft.dir/ft_toupper.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_toupper.c -o CMakeFiles/libft.dir/ft_toupper.c.s
 
 libft/CMakeFiles/libft.dir/ft_toupper.c.o.requires:
 
@@ -587,16 +587,16 @@ libft/CMakeFiles/libft.dir/ft_toupper.c.o.provides.build: libft/CMakeFiles/libft
 
 libft/CMakeFiles/libft.dir/ft_memcpy.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_memcpy.c.o: ../libft/ft_memcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object libft/CMakeFiles/libft.dir/ft_memcpy.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_memcpy.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_memcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object libft/CMakeFiles/libft.dir/ft_memcpy.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_memcpy.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_memcpy.c
 
 libft/CMakeFiles/libft.dir/ft_memcpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_memcpy.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_memcpy.c > CMakeFiles/libft.dir/ft_memcpy.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_memcpy.c > CMakeFiles/libft.dir/ft_memcpy.c.i
 
 libft/CMakeFiles/libft.dir/ft_memcpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_memcpy.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_memcpy.c -o CMakeFiles/libft.dir/ft_memcpy.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_memcpy.c -o CMakeFiles/libft.dir/ft_memcpy.c.s
 
 libft/CMakeFiles/libft.dir/ft_memcpy.c.o.requires:
 
@@ -611,16 +611,16 @@ libft/CMakeFiles/libft.dir/ft_memcpy.c.o.provides.build: libft/CMakeFiles/libft.
 
 libft/CMakeFiles/libft.dir/ft_memalloc.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_memalloc.c.o: ../libft/ft_memalloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object libft/CMakeFiles/libft.dir/ft_memalloc.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_memalloc.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_memalloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object libft/CMakeFiles/libft.dir/ft_memalloc.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_memalloc.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_memalloc.c
 
 libft/CMakeFiles/libft.dir/ft_memalloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_memalloc.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_memalloc.c > CMakeFiles/libft.dir/ft_memalloc.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_memalloc.c > CMakeFiles/libft.dir/ft_memalloc.c.i
 
 libft/CMakeFiles/libft.dir/ft_memalloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_memalloc.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_memalloc.c -o CMakeFiles/libft.dir/ft_memalloc.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_memalloc.c -o CMakeFiles/libft.dir/ft_memalloc.c.s
 
 libft/CMakeFiles/libft.dir/ft_memalloc.c.o.requires:
 
@@ -635,16 +635,16 @@ libft/CMakeFiles/libft.dir/ft_memalloc.c.o.provides.build: libft/CMakeFiles/libf
 
 libft/CMakeFiles/libft.dir/ft_memdel.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_memdel.c.o: ../libft/ft_memdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object libft/CMakeFiles/libft.dir/ft_memdel.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_memdel.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_memdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object libft/CMakeFiles/libft.dir/ft_memdel.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_memdel.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_memdel.c
 
 libft/CMakeFiles/libft.dir/ft_memdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_memdel.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_memdel.c > CMakeFiles/libft.dir/ft_memdel.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_memdel.c > CMakeFiles/libft.dir/ft_memdel.c.i
 
 libft/CMakeFiles/libft.dir/ft_memdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_memdel.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_memdel.c -o CMakeFiles/libft.dir/ft_memdel.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_memdel.c -o CMakeFiles/libft.dir/ft_memdel.c.s
 
 libft/CMakeFiles/libft.dir/ft_memdel.c.o.requires:
 
@@ -659,16 +659,16 @@ libft/CMakeFiles/libft.dir/ft_memdel.c.o.provides.build: libft/CMakeFiles/libft.
 
 libft/CMakeFiles/libft.dir/ft_memccpy.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_memccpy.c.o: ../libft/ft_memccpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object libft/CMakeFiles/libft.dir/ft_memccpy.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_memccpy.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_memccpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object libft/CMakeFiles/libft.dir/ft_memccpy.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_memccpy.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_memccpy.c
 
 libft/CMakeFiles/libft.dir/ft_memccpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_memccpy.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_memccpy.c > CMakeFiles/libft.dir/ft_memccpy.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_memccpy.c > CMakeFiles/libft.dir/ft_memccpy.c.i
 
 libft/CMakeFiles/libft.dir/ft_memccpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_memccpy.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_memccpy.c -o CMakeFiles/libft.dir/ft_memccpy.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_memccpy.c -o CMakeFiles/libft.dir/ft_memccpy.c.s
 
 libft/CMakeFiles/libft.dir/ft_memccpy.c.o.requires:
 
@@ -683,16 +683,16 @@ libft/CMakeFiles/libft.dir/ft_memccpy.c.o.provides.build: libft/CMakeFiles/libft
 
 libft/CMakeFiles/libft.dir/ft_memchr.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_memchr.c.o: ../libft/ft_memchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object libft/CMakeFiles/libft.dir/ft_memchr.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_memchr.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_memchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object libft/CMakeFiles/libft.dir/ft_memchr.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_memchr.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_memchr.c
 
 libft/CMakeFiles/libft.dir/ft_memchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_memchr.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_memchr.c > CMakeFiles/libft.dir/ft_memchr.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_memchr.c > CMakeFiles/libft.dir/ft_memchr.c.i
 
 libft/CMakeFiles/libft.dir/ft_memchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_memchr.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_memchr.c -o CMakeFiles/libft.dir/ft_memchr.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_memchr.c -o CMakeFiles/libft.dir/ft_memchr.c.s
 
 libft/CMakeFiles/libft.dir/ft_memchr.c.o.requires:
 
@@ -707,16 +707,16 @@ libft/CMakeFiles/libft.dir/ft_memchr.c.o.provides.build: libft/CMakeFiles/libft.
 
 libft/CMakeFiles/libft.dir/ft_memmove.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_memmove.c.o: ../libft/ft_memmove.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object libft/CMakeFiles/libft.dir/ft_memmove.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_memmove.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_memmove.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object libft/CMakeFiles/libft.dir/ft_memmove.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_memmove.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_memmove.c
 
 libft/CMakeFiles/libft.dir/ft_memmove.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_memmove.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_memmove.c > CMakeFiles/libft.dir/ft_memmove.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_memmove.c > CMakeFiles/libft.dir/ft_memmove.c.i
 
 libft/CMakeFiles/libft.dir/ft_memmove.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_memmove.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_memmove.c -o CMakeFiles/libft.dir/ft_memmove.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_memmove.c -o CMakeFiles/libft.dir/ft_memmove.c.s
 
 libft/CMakeFiles/libft.dir/ft_memmove.c.o.requires:
 
@@ -731,16 +731,16 @@ libft/CMakeFiles/libft.dir/ft_memmove.c.o.provides.build: libft/CMakeFiles/libft
 
 libft/CMakeFiles/libft.dir/ft_bzero.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_bzero.c.o: ../libft/ft_bzero.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object libft/CMakeFiles/libft.dir/ft_bzero.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_bzero.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_bzero.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object libft/CMakeFiles/libft.dir/ft_bzero.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_bzero.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_bzero.c
 
 libft/CMakeFiles/libft.dir/ft_bzero.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_bzero.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_bzero.c > CMakeFiles/libft.dir/ft_bzero.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_bzero.c > CMakeFiles/libft.dir/ft_bzero.c.i
 
 libft/CMakeFiles/libft.dir/ft_bzero.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_bzero.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_bzero.c -o CMakeFiles/libft.dir/ft_bzero.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_bzero.c -o CMakeFiles/libft.dir/ft_bzero.c.s
 
 libft/CMakeFiles/libft.dir/ft_bzero.c.o.requires:
 
@@ -755,16 +755,16 @@ libft/CMakeFiles/libft.dir/ft_bzero.c.o.provides.build: libft/CMakeFiles/libft.d
 
 libft/CMakeFiles/libft.dir/ft_memset.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_memset.c.o: ../libft/ft_memset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object libft/CMakeFiles/libft.dir/ft_memset.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_memset.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_memset.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object libft/CMakeFiles/libft.dir/ft_memset.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_memset.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_memset.c
 
 libft/CMakeFiles/libft.dir/ft_memset.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_memset.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_memset.c > CMakeFiles/libft.dir/ft_memset.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_memset.c > CMakeFiles/libft.dir/ft_memset.c.i
 
 libft/CMakeFiles/libft.dir/ft_memset.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_memset.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_memset.c -o CMakeFiles/libft.dir/ft_memset.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_memset.c -o CMakeFiles/libft.dir/ft_memset.c.s
 
 libft/CMakeFiles/libft.dir/ft_memset.c.o.requires:
 
@@ -779,16 +779,16 @@ libft/CMakeFiles/libft.dir/ft_memset.c.o.provides.build: libft/CMakeFiles/libft.
 
 libft/CMakeFiles/libft.dir/ft_memcmp.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_memcmp.c.o: ../libft/ft_memcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object libft/CMakeFiles/libft.dir/ft_memcmp.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_memcmp.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_memcmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object libft/CMakeFiles/libft.dir/ft_memcmp.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_memcmp.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_memcmp.c
 
 libft/CMakeFiles/libft.dir/ft_memcmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_memcmp.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_memcmp.c > CMakeFiles/libft.dir/ft_memcmp.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_memcmp.c > CMakeFiles/libft.dir/ft_memcmp.c.i
 
 libft/CMakeFiles/libft.dir/ft_memcmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_memcmp.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_memcmp.c -o CMakeFiles/libft.dir/ft_memcmp.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_memcmp.c -o CMakeFiles/libft.dir/ft_memcmp.c.s
 
 libft/CMakeFiles/libft.dir/ft_memcmp.c.o.requires:
 
@@ -803,16 +803,16 @@ libft/CMakeFiles/libft.dir/ft_memcmp.c.o.provides.build: libft/CMakeFiles/libft.
 
 libft/CMakeFiles/libft.dir/ft_strcat.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_strcat.c.o: ../libft/ft_strcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object libft/CMakeFiles/libft.dir/ft_strcat.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strcat.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strcat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object libft/CMakeFiles/libft.dir/ft_strcat.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strcat.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strcat.c
 
 libft/CMakeFiles/libft.dir/ft_strcat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strcat.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strcat.c > CMakeFiles/libft.dir/ft_strcat.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strcat.c > CMakeFiles/libft.dir/ft_strcat.c.i
 
 libft/CMakeFiles/libft.dir/ft_strcat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strcat.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strcat.c -o CMakeFiles/libft.dir/ft_strcat.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strcat.c -o CMakeFiles/libft.dir/ft_strcat.c.s
 
 libft/CMakeFiles/libft.dir/ft_strcat.c.o.requires:
 
@@ -827,16 +827,16 @@ libft/CMakeFiles/libft.dir/ft_strcat.c.o.provides.build: libft/CMakeFiles/libft.
 
 libft/CMakeFiles/libft.dir/ft_strncat.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_strncat.c.o: ../libft/ft_strncat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object libft/CMakeFiles/libft.dir/ft_strncat.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strncat.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strncat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object libft/CMakeFiles/libft.dir/ft_strncat.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strncat.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strncat.c
 
 libft/CMakeFiles/libft.dir/ft_strncat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strncat.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strncat.c > CMakeFiles/libft.dir/ft_strncat.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strncat.c > CMakeFiles/libft.dir/ft_strncat.c.i
 
 libft/CMakeFiles/libft.dir/ft_strncat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strncat.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strncat.c -o CMakeFiles/libft.dir/ft_strncat.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strncat.c -o CMakeFiles/libft.dir/ft_strncat.c.s
 
 libft/CMakeFiles/libft.dir/ft_strncat.c.o.requires:
 
@@ -851,16 +851,16 @@ libft/CMakeFiles/libft.dir/ft_strncat.c.o.provides.build: libft/CMakeFiles/libft
 
 libft/CMakeFiles/libft.dir/ft_strlcat.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_strlcat.c.o: ../libft/ft_strlcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object libft/CMakeFiles/libft.dir/ft_strlcat.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strlcat.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strlcat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object libft/CMakeFiles/libft.dir/ft_strlcat.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strlcat.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strlcat.c
 
 libft/CMakeFiles/libft.dir/ft_strlcat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strlcat.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strlcat.c > CMakeFiles/libft.dir/ft_strlcat.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strlcat.c > CMakeFiles/libft.dir/ft_strlcat.c.i
 
 libft/CMakeFiles/libft.dir/ft_strlcat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strlcat.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strlcat.c -o CMakeFiles/libft.dir/ft_strlcat.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strlcat.c -o CMakeFiles/libft.dir/ft_strlcat.c.s
 
 libft/CMakeFiles/libft.dir/ft_strlcat.c.o.requires:
 
@@ -875,16 +875,16 @@ libft/CMakeFiles/libft.dir/ft_strlcat.c.o.provides.build: libft/CMakeFiles/libft
 
 libft/CMakeFiles/libft.dir/ft_strncmp.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_strncmp.c.o: ../libft/ft_strncmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object libft/CMakeFiles/libft.dir/ft_strncmp.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strncmp.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strncmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object libft/CMakeFiles/libft.dir/ft_strncmp.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strncmp.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strncmp.c
 
 libft/CMakeFiles/libft.dir/ft_strncmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strncmp.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strncmp.c > CMakeFiles/libft.dir/ft_strncmp.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strncmp.c > CMakeFiles/libft.dir/ft_strncmp.c.i
 
 libft/CMakeFiles/libft.dir/ft_strncmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strncmp.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strncmp.c -o CMakeFiles/libft.dir/ft_strncmp.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strncmp.c -o CMakeFiles/libft.dir/ft_strncmp.c.s
 
 libft/CMakeFiles/libft.dir/ft_strncmp.c.o.requires:
 
@@ -899,16 +899,16 @@ libft/CMakeFiles/libft.dir/ft_strncmp.c.o.provides.build: libft/CMakeFiles/libft
 
 libft/CMakeFiles/libft.dir/ft_strlen.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_strlen.c.o: ../libft/ft_strlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object libft/CMakeFiles/libft.dir/ft_strlen.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strlen.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strlen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object libft/CMakeFiles/libft.dir/ft_strlen.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strlen.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strlen.c
 
 libft/CMakeFiles/libft.dir/ft_strlen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strlen.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strlen.c > CMakeFiles/libft.dir/ft_strlen.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strlen.c > CMakeFiles/libft.dir/ft_strlen.c.i
 
 libft/CMakeFiles/libft.dir/ft_strlen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strlen.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strlen.c -o CMakeFiles/libft.dir/ft_strlen.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strlen.c -o CMakeFiles/libft.dir/ft_strlen.c.s
 
 libft/CMakeFiles/libft.dir/ft_strlen.c.o.requires:
 
@@ -923,16 +923,16 @@ libft/CMakeFiles/libft.dir/ft_strlen.c.o.provides.build: libft/CMakeFiles/libft.
 
 libft/CMakeFiles/libft.dir/ft_strnlen.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_strnlen.c.o: ../libft/ft_strnlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object libft/CMakeFiles/libft.dir/ft_strnlen.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strnlen.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strnlen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object libft/CMakeFiles/libft.dir/ft_strnlen.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strnlen.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strnlen.c
 
 libft/CMakeFiles/libft.dir/ft_strnlen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strnlen.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strnlen.c > CMakeFiles/libft.dir/ft_strnlen.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strnlen.c > CMakeFiles/libft.dir/ft_strnlen.c.i
 
 libft/CMakeFiles/libft.dir/ft_strnlen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strnlen.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strnlen.c -o CMakeFiles/libft.dir/ft_strnlen.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strnlen.c -o CMakeFiles/libft.dir/ft_strnlen.c.s
 
 libft/CMakeFiles/libft.dir/ft_strnlen.c.o.requires:
 
@@ -947,16 +947,16 @@ libft/CMakeFiles/libft.dir/ft_strnlen.c.o.provides.build: libft/CMakeFiles/libft
 
 libft/CMakeFiles/libft.dir/ft_strcpy.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_strcpy.c.o: ../libft/ft_strcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object libft/CMakeFiles/libft.dir/ft_strcpy.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strcpy.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object libft/CMakeFiles/libft.dir/ft_strcpy.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strcpy.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strcpy.c
 
 libft/CMakeFiles/libft.dir/ft_strcpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strcpy.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strcpy.c > CMakeFiles/libft.dir/ft_strcpy.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strcpy.c > CMakeFiles/libft.dir/ft_strcpy.c.i
 
 libft/CMakeFiles/libft.dir/ft_strcpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strcpy.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strcpy.c -o CMakeFiles/libft.dir/ft_strcpy.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strcpy.c -o CMakeFiles/libft.dir/ft_strcpy.c.s
 
 libft/CMakeFiles/libft.dir/ft_strcpy.c.o.requires:
 
@@ -971,16 +971,16 @@ libft/CMakeFiles/libft.dir/ft_strcpy.c.o.provides.build: libft/CMakeFiles/libft.
 
 libft/CMakeFiles/libft.dir/ft_strdup.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_strdup.c.o: ../libft/ft_strdup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object libft/CMakeFiles/libft.dir/ft_strdup.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strdup.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strdup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object libft/CMakeFiles/libft.dir/ft_strdup.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strdup.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strdup.c
 
 libft/CMakeFiles/libft.dir/ft_strdup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strdup.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strdup.c > CMakeFiles/libft.dir/ft_strdup.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strdup.c > CMakeFiles/libft.dir/ft_strdup.c.i
 
 libft/CMakeFiles/libft.dir/ft_strdup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strdup.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strdup.c -o CMakeFiles/libft.dir/ft_strdup.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strdup.c -o CMakeFiles/libft.dir/ft_strdup.c.s
 
 libft/CMakeFiles/libft.dir/ft_strdup.c.o.requires:
 
@@ -995,16 +995,16 @@ libft/CMakeFiles/libft.dir/ft_strdup.c.o.provides.build: libft/CMakeFiles/libft.
 
 libft/CMakeFiles/libft.dir/ft_strclr.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_strclr.c.o: ../libft/ft_strclr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object libft/CMakeFiles/libft.dir/ft_strclr.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strclr.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strclr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object libft/CMakeFiles/libft.dir/ft_strclr.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strclr.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strclr.c
 
 libft/CMakeFiles/libft.dir/ft_strclr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strclr.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strclr.c > CMakeFiles/libft.dir/ft_strclr.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strclr.c > CMakeFiles/libft.dir/ft_strclr.c.i
 
 libft/CMakeFiles/libft.dir/ft_strclr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strclr.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strclr.c -o CMakeFiles/libft.dir/ft_strclr.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strclr.c -o CMakeFiles/libft.dir/ft_strclr.c.s
 
 libft/CMakeFiles/libft.dir/ft_strclr.c.o.requires:
 
@@ -1019,16 +1019,16 @@ libft/CMakeFiles/libft.dir/ft_strclr.c.o.provides.build: libft/CMakeFiles/libft.
 
 libft/CMakeFiles/libft.dir/ft_strncpy.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_strncpy.c.o: ../libft/ft_strncpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object libft/CMakeFiles/libft.dir/ft_strncpy.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strncpy.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strncpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object libft/CMakeFiles/libft.dir/ft_strncpy.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strncpy.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strncpy.c
 
 libft/CMakeFiles/libft.dir/ft_strncpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strncpy.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strncpy.c > CMakeFiles/libft.dir/ft_strncpy.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strncpy.c > CMakeFiles/libft.dir/ft_strncpy.c.i
 
 libft/CMakeFiles/libft.dir/ft_strncpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strncpy.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strncpy.c -o CMakeFiles/libft.dir/ft_strncpy.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strncpy.c -o CMakeFiles/libft.dir/ft_strncpy.c.s
 
 libft/CMakeFiles/libft.dir/ft_strncpy.c.o.requires:
 
@@ -1043,16 +1043,16 @@ libft/CMakeFiles/libft.dir/ft_strncpy.c.o.provides.build: libft/CMakeFiles/libft
 
 libft/CMakeFiles/libft.dir/ft_strndup.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_strndup.c.o: ../libft/ft_strndup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object libft/CMakeFiles/libft.dir/ft_strndup.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strndup.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strndup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object libft/CMakeFiles/libft.dir/ft_strndup.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strndup.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strndup.c
 
 libft/CMakeFiles/libft.dir/ft_strndup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strndup.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strndup.c > CMakeFiles/libft.dir/ft_strndup.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strndup.c > CMakeFiles/libft.dir/ft_strndup.c.i
 
 libft/CMakeFiles/libft.dir/ft_strndup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strndup.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strndup.c -o CMakeFiles/libft.dir/ft_strndup.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strndup.c -o CMakeFiles/libft.dir/ft_strndup.c.s
 
 libft/CMakeFiles/libft.dir/ft_strndup.c.o.requires:
 
@@ -1067,16 +1067,16 @@ libft/CMakeFiles/libft.dir/ft_strndup.c.o.provides.build: libft/CMakeFiles/libft
 
 libft/CMakeFiles/libft.dir/ft_strchr.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_strchr.c.o: ../libft/ft_strchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object libft/CMakeFiles/libft.dir/ft_strchr.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strchr.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object libft/CMakeFiles/libft.dir/ft_strchr.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strchr.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strchr.c
 
 libft/CMakeFiles/libft.dir/ft_strchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strchr.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strchr.c > CMakeFiles/libft.dir/ft_strchr.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strchr.c > CMakeFiles/libft.dir/ft_strchr.c.i
 
 libft/CMakeFiles/libft.dir/ft_strchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strchr.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strchr.c -o CMakeFiles/libft.dir/ft_strchr.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strchr.c -o CMakeFiles/libft.dir/ft_strchr.c.s
 
 libft/CMakeFiles/libft.dir/ft_strchr.c.o.requires:
 
@@ -1091,16 +1091,16 @@ libft/CMakeFiles/libft.dir/ft_strchr.c.o.provides.build: libft/CMakeFiles/libft.
 
 libft/CMakeFiles/libft.dir/ft_strrchr.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_strrchr.c.o: ../libft/ft_strrchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object libft/CMakeFiles/libft.dir/ft_strrchr.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strrchr.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strrchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object libft/CMakeFiles/libft.dir/ft_strrchr.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strrchr.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strrchr.c
 
 libft/CMakeFiles/libft.dir/ft_strrchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strrchr.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strrchr.c > CMakeFiles/libft.dir/ft_strrchr.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strrchr.c > CMakeFiles/libft.dir/ft_strrchr.c.i
 
 libft/CMakeFiles/libft.dir/ft_strrchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strrchr.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strrchr.c -o CMakeFiles/libft.dir/ft_strrchr.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strrchr.c -o CMakeFiles/libft.dir/ft_strrchr.c.s
 
 libft/CMakeFiles/libft.dir/ft_strrchr.c.o.requires:
 
@@ -1115,16 +1115,16 @@ libft/CMakeFiles/libft.dir/ft_strrchr.c.o.provides.build: libft/CMakeFiles/libft
 
 libft/CMakeFiles/libft.dir/ft_strstr.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_strstr.c.o: ../libft/ft_strstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object libft/CMakeFiles/libft.dir/ft_strstr.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strstr.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object libft/CMakeFiles/libft.dir/ft_strstr.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strstr.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strstr.c
 
 libft/CMakeFiles/libft.dir/ft_strstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strstr.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strstr.c > CMakeFiles/libft.dir/ft_strstr.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strstr.c > CMakeFiles/libft.dir/ft_strstr.c.i
 
 libft/CMakeFiles/libft.dir/ft_strstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strstr.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strstr.c -o CMakeFiles/libft.dir/ft_strstr.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strstr.c -o CMakeFiles/libft.dir/ft_strstr.c.s
 
 libft/CMakeFiles/libft.dir/ft_strstr.c.o.requires:
 
@@ -1139,16 +1139,16 @@ libft/CMakeFiles/libft.dir/ft_strstr.c.o.provides.build: libft/CMakeFiles/libft.
 
 libft/CMakeFiles/libft.dir/ft_strnstr.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_strnstr.c.o: ../libft/ft_strnstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object libft/CMakeFiles/libft.dir/ft_strnstr.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strnstr.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strnstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object libft/CMakeFiles/libft.dir/ft_strnstr.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strnstr.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strnstr.c
 
 libft/CMakeFiles/libft.dir/ft_strnstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strnstr.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strnstr.c > CMakeFiles/libft.dir/ft_strnstr.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strnstr.c > CMakeFiles/libft.dir/ft_strnstr.c.i
 
 libft/CMakeFiles/libft.dir/ft_strnstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strnstr.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strnstr.c -o CMakeFiles/libft.dir/ft_strnstr.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strnstr.c -o CMakeFiles/libft.dir/ft_strnstr.c.s
 
 libft/CMakeFiles/libft.dir/ft_strnstr.c.o.requires:
 
@@ -1163,16 +1163,16 @@ libft/CMakeFiles/libft.dir/ft_strnstr.c.o.provides.build: libft/CMakeFiles/libft
 
 libft/CMakeFiles/libft.dir/ft_strnew.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_strnew.c.o: ../libft/ft_strnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object libft/CMakeFiles/libft.dir/ft_strnew.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strnew.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strnew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object libft/CMakeFiles/libft.dir/ft_strnew.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strnew.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strnew.c
 
 libft/CMakeFiles/libft.dir/ft_strnew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strnew.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strnew.c > CMakeFiles/libft.dir/ft_strnew.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strnew.c > CMakeFiles/libft.dir/ft_strnew.c.i
 
 libft/CMakeFiles/libft.dir/ft_strnew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strnew.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strnew.c -o CMakeFiles/libft.dir/ft_strnew.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strnew.c -o CMakeFiles/libft.dir/ft_strnew.c.s
 
 libft/CMakeFiles/libft.dir/ft_strnew.c.o.requires:
 
@@ -1187,16 +1187,16 @@ libft/CMakeFiles/libft.dir/ft_strnew.c.o.provides.build: libft/CMakeFiles/libft.
 
 libft/CMakeFiles/libft.dir/ft_strdel.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_strdel.c.o: ../libft/ft_strdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object libft/CMakeFiles/libft.dir/ft_strdel.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strdel.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object libft/CMakeFiles/libft.dir/ft_strdel.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strdel.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strdel.c
 
 libft/CMakeFiles/libft.dir/ft_strdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strdel.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strdel.c > CMakeFiles/libft.dir/ft_strdel.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strdel.c > CMakeFiles/libft.dir/ft_strdel.c.i
 
 libft/CMakeFiles/libft.dir/ft_strdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strdel.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strdel.c -o CMakeFiles/libft.dir/ft_strdel.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strdel.c -o CMakeFiles/libft.dir/ft_strdel.c.s
 
 libft/CMakeFiles/libft.dir/ft_strdel.c.o.requires:
 
@@ -1211,16 +1211,16 @@ libft/CMakeFiles/libft.dir/ft_strdel.c.o.provides.build: libft/CMakeFiles/libft.
 
 libft/CMakeFiles/libft.dir/ft_striter.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_striter.c.o: ../libft/ft_striter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object libft/CMakeFiles/libft.dir/ft_striter.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_striter.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_striter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object libft/CMakeFiles/libft.dir/ft_striter.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_striter.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_striter.c
 
 libft/CMakeFiles/libft.dir/ft_striter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_striter.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_striter.c > CMakeFiles/libft.dir/ft_striter.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_striter.c > CMakeFiles/libft.dir/ft_striter.c.i
 
 libft/CMakeFiles/libft.dir/ft_striter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_striter.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_striter.c -o CMakeFiles/libft.dir/ft_striter.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_striter.c -o CMakeFiles/libft.dir/ft_striter.c.s
 
 libft/CMakeFiles/libft.dir/ft_striter.c.o.requires:
 
@@ -1235,16 +1235,16 @@ libft/CMakeFiles/libft.dir/ft_striter.c.o.provides.build: libft/CMakeFiles/libft
 
 libft/CMakeFiles/libft.dir/ft_striteri.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_striteri.c.o: ../libft/ft_striteri.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object libft/CMakeFiles/libft.dir/ft_striteri.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_striteri.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_striteri.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object libft/CMakeFiles/libft.dir/ft_striteri.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_striteri.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_striteri.c
 
 libft/CMakeFiles/libft.dir/ft_striteri.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_striteri.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_striteri.c > CMakeFiles/libft.dir/ft_striteri.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_striteri.c > CMakeFiles/libft.dir/ft_striteri.c.i
 
 libft/CMakeFiles/libft.dir/ft_striteri.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_striteri.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_striteri.c -o CMakeFiles/libft.dir/ft_striteri.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_striteri.c -o CMakeFiles/libft.dir/ft_striteri.c.s
 
 libft/CMakeFiles/libft.dir/ft_striteri.c.o.requires:
 
@@ -1259,16 +1259,16 @@ libft/CMakeFiles/libft.dir/ft_striteri.c.o.provides.build: libft/CMakeFiles/libf
 
 libft/CMakeFiles/libft.dir/ft_strsplit.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_strsplit.c.o: ../libft/ft_strsplit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object libft/CMakeFiles/libft.dir/ft_strsplit.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strsplit.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strsplit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object libft/CMakeFiles/libft.dir/ft_strsplit.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strsplit.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strsplit.c
 
 libft/CMakeFiles/libft.dir/ft_strsplit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strsplit.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strsplit.c > CMakeFiles/libft.dir/ft_strsplit.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strsplit.c > CMakeFiles/libft.dir/ft_strsplit.c.i
 
 libft/CMakeFiles/libft.dir/ft_strsplit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strsplit.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strsplit.c -o CMakeFiles/libft.dir/ft_strsplit.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strsplit.c -o CMakeFiles/libft.dir/ft_strsplit.c.s
 
 libft/CMakeFiles/libft.dir/ft_strsplit.c.o.requires:
 
@@ -1283,16 +1283,16 @@ libft/CMakeFiles/libft.dir/ft_strsplit.c.o.provides.build: libft/CMakeFiles/libf
 
 libft/CMakeFiles/libft.dir/ft_atoi.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_atoi.c.o: ../libft/ft_atoi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object libft/CMakeFiles/libft.dir/ft_atoi.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_atoi.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_atoi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object libft/CMakeFiles/libft.dir/ft_atoi.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_atoi.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_atoi.c
 
 libft/CMakeFiles/libft.dir/ft_atoi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_atoi.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_atoi.c > CMakeFiles/libft.dir/ft_atoi.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_atoi.c > CMakeFiles/libft.dir/ft_atoi.c.i
 
 libft/CMakeFiles/libft.dir/ft_atoi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_atoi.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_atoi.c -o CMakeFiles/libft.dir/ft_atoi.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_atoi.c -o CMakeFiles/libft.dir/ft_atoi.c.s
 
 libft/CMakeFiles/libft.dir/ft_atoi.c.o.requires:
 
@@ -1307,16 +1307,16 @@ libft/CMakeFiles/libft.dir/ft_atoi.c.o.provides.build: libft/CMakeFiles/libft.di
 
 libft/CMakeFiles/libft.dir/ft_abs.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_abs.c.o: ../libft/ft_abs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object libft/CMakeFiles/libft.dir/ft_abs.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_abs.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_abs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object libft/CMakeFiles/libft.dir/ft_abs.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_abs.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_abs.c
 
 libft/CMakeFiles/libft.dir/ft_abs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_abs.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_abs.c > CMakeFiles/libft.dir/ft_abs.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_abs.c > CMakeFiles/libft.dir/ft_abs.c.i
 
 libft/CMakeFiles/libft.dir/ft_abs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_abs.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_abs.c -o CMakeFiles/libft.dir/ft_abs.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_abs.c -o CMakeFiles/libft.dir/ft_abs.c.s
 
 libft/CMakeFiles/libft.dir/ft_abs.c.o.requires:
 
@@ -1331,16 +1331,16 @@ libft/CMakeFiles/libft.dir/ft_abs.c.o.provides.build: libft/CMakeFiles/libft.dir
 
 libft/CMakeFiles/libft.dir/ft_putendl.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_putendl.c.o: ../libft/ft_putendl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object libft/CMakeFiles/libft.dir/ft_putendl.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_putendl.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_putendl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object libft/CMakeFiles/libft.dir/ft_putendl.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_putendl.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_putendl.c
 
 libft/CMakeFiles/libft.dir/ft_putendl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_putendl.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_putendl.c > CMakeFiles/libft.dir/ft_putendl.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_putendl.c > CMakeFiles/libft.dir/ft_putendl.c.i
 
 libft/CMakeFiles/libft.dir/ft_putendl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_putendl.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_putendl.c -o CMakeFiles/libft.dir/ft_putendl.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_putendl.c -o CMakeFiles/libft.dir/ft_putendl.c.s
 
 libft/CMakeFiles/libft.dir/ft_putendl.c.o.requires:
 
@@ -1355,16 +1355,16 @@ libft/CMakeFiles/libft.dir/ft_putendl.c.o.provides.build: libft/CMakeFiles/libft
 
 libft/CMakeFiles/libft.dir/ft_strcmp.c.o: libft/CMakeFiles/libft.dir/flags.make
 libft/CMakeFiles/libft.dir/ft_strcmp.c.o: ../libft/ft_strcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object libft/CMakeFiles/libft.dir/ft_strcmp.c.o"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strcmp.c.o   -c /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strcmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object libft/CMakeFiles/libft.dir/ft_strcmp.c.o"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strcmp.c.o   -c /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strcmp.c
 
 libft/CMakeFiles/libft.dir/ft_strcmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strcmp.c.i"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strcmp.c > CMakeFiles/libft.dir/ft_strcmp.c.i
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strcmp.c > CMakeFiles/libft.dir/ft_strcmp.c.i
 
 libft/CMakeFiles/libft.dir/ft_strcmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strcmp.c.s"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jibrankalia/FunAlgorithms/8queens/libft/ft_strcmp.c -o CMakeFiles/libft.dir/ft_strcmp.c.s
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft/ft_strcmp.c -o CMakeFiles/libft.dir/ft_strcmp.c.s
 
 libft/CMakeFiles/libft.dir/ft_strcmp.c.o.requires:
 
@@ -1495,9 +1495,9 @@ libft/liblibft.a: libft/CMakeFiles/libft.dir/ft_putendl.c.o
 libft/liblibft.a: libft/CMakeFiles/libft.dir/ft_strcmp.c.o
 libft/liblibft.a: libft/CMakeFiles/libft.dir/build.make
 libft/liblibft.a: libft/CMakeFiles/libft.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Linking C static library liblibft.a"
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && $(CMAKE_COMMAND) -P CMakeFiles/libft.dir/cmake_clean_target.cmake
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libft.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Linking C static library liblibft.a"
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && $(CMAKE_COMMAND) -P CMakeFiles/libft.dir/cmake_clean_target.cmake
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libft.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libft/CMakeFiles/libft.dir/build: libft/liblibft.a
@@ -1563,10 +1563,10 @@ libft/CMakeFiles/libft.dir/requires: libft/CMakeFiles/libft.dir/ft_strcmp.c.o.re
 .PHONY : libft/CMakeFiles/libft.dir/requires
 
 libft/CMakeFiles/libft.dir/clean:
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft && $(CMAKE_COMMAND) -P CMakeFiles/libft.dir/cmake_clean.cmake
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft && $(CMAKE_COMMAND) -P CMakeFiles/libft.dir/cmake_clean.cmake
 .PHONY : libft/CMakeFiles/libft.dir/clean
 
 libft/CMakeFiles/libft.dir/depend:
-	cd /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jibrankalia/FunAlgorithms/8queens /Users/jibrankalia/FunAlgorithms/8queens/libft /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft /Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft/CMakeFiles/libft.dir/DependInfo.cmake --color=$(COLOR)
+	cd /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /nfs/2017/j/jkalia/FunAlgorithms/8queens /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft /nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft/CMakeFiles/libft.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libft/CMakeFiles/libft.dir/depend
 

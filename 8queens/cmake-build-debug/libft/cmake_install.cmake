@@ -1,4 +1,4 @@
-# Install script for directory: /Users/jibrankalia/FunAlgorithms/8queens/libft
+# Install script for directory: /nfs/2017/j/jkalia/FunAlgorithms/8queens/libft
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

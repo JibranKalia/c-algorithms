@@ -1,6 +1,6 @@
-/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles/8queens.dir
-/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft/CMakeFiles/edit_cache.dir
-/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft/CMakeFiles/rebuild_cache.dir
-/Users/jibrankalia/FunAlgorithms/8queens/cmake-build-debug/libft/CMakeFiles/libft.dir
+/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles/edit_cache.dir
+/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/CMakeFiles/8queens.dir
+/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft/CMakeFiles/edit_cache.dir
+/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft/CMakeFiles/rebuild_cache.dir
+/nfs/2017/j/jkalia/FunAlgorithms/8queens/cmake-build-debug/libft/CMakeFiles/libft.dir
