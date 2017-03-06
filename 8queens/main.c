@@ -5,7 +5,7 @@
 #include "queen.h"
 
 int g_size;
-int g_iteration;
+int g_solution;
 
 static void		tbl_del(char **src)
 {
@@ -56,9 +56,10 @@ static void		printboard(char **tab, int g_size)
 		while (col < g_size)
 		{
 			write(1, &(tab[row][col]), 1);
+			ft_putstr("  ");
 			++col;
 		}
-		ft_putchar('\n');
+		ft_putstr("\n\n");
 		++row;
 	}
 }
@@ -68,6 +69,7 @@ int 	solveboard(char **tab, int row)
 	if(row == g_size)
 	{
 		printboard(tab, g_size);
+		g_solution;
 		return (1);
 	}
 
@@ -78,7 +80,6 @@ int 	solveboard(char **tab, int row)
 		if (valid_all(tab, row, col, g_size) == true)
 		{
 			tab[row][col] = 'Q';
-			g_iteration++;
 			if (solveboard(tab, row + 1) == 1)
 				return (1);
 			tab[row][col] = '.';
